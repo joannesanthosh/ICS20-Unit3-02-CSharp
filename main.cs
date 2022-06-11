@@ -22,10 +22,8 @@ class Program
         widthOfPyramid = (Convert.ToInt32(Console.ReadLine()));
         Console.WriteLine("Enter the height of the pyramid.");
         heightOfPyramid = (Convert.ToInt32(Console.ReadLine()));
-      
         Console.WriteLine("");
         Console.WriteLine("The volume of the pyramid is: " + (lengthOfPyramid * widthOfPyramid * heightOfPyramid /3) + " cm³ ");
-
         Console.WriteLine("\nDone.");
     }
 }
